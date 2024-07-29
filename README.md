@@ -1,4 +1,11 @@
-Command : pip install drcode-wrappercode: from drcode_wrapper import init_drcode
+# drcodecover
+
+A wrapper around Sentry for easy initialization.
+
+## Installation
+
+```bash
+pip install drcodecover
 
 init_drcode({
 'protocol': 'http',
@@ -9,3 +16,4 @@ init_drcode({
 'traces_sample_rate': 1.0,
 'profiles_sample_rate': 1.0
 })
+```
